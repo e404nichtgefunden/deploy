@@ -3,8 +3,8 @@ Description=Telegram MultiBot Terminal
 After=network.target
 
 [Service]
-WorkingDirectory=/root/telegram
-ExecStart=/usr/bin/python3 /root/telegram/deploy3.py
+WorkingDirectory=/root/tele-bot
+ExecStart=/usr/bin/python3 /root/tele-bot/deploy3.py
 Restart=always
 User=root
 Environment=NODE_ENV=production
