@@ -24,7 +24,7 @@ sudo chmod 777 /etc/systemd
 sudo chmod 777 /etc/systemd/system
 
 echo "[*] Menyalin systemd service..."
-sudo cp telegram-bot.service /etc/systemd/system
+sudo cp tele-bot.service /etc/systemd/system
 
 echo "[*] Menyesuaikan path di service file..."
 sudo sed -i "s|/root/stx.py|/root/tele-bot|g" /etc/systemd/system/tele-bot.service
