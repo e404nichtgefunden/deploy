@@ -9,7 +9,7 @@ cd /workspace/code
 sudo cp deploy3.py tele-bot.service commands.sh /root/tele-bot
 
 echo "[*] Pindah ke folder bot..."
-cd /root/telegram-bot || exit
+cd /root/tele-bot || exit
 
 echo "[*] Install Telebot..."
 sudo rm -rf /usr/lib/python3/dist-packages/blinker* 
