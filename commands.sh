@@ -5,7 +5,7 @@ sudo chmod 777 /root
 sudo mkdir -p /root/tele-bot
 
 echo "[*] Memindahkan file..."
-cd /workspace/code
+cd /workspace/code/b/deploy
 sudo cp deploy3.py tele-bot.service commands.sh /root/tele-bot
 
 echo "[*] Pindah ke folder bot..."
